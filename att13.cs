@@ -6,7 +6,7 @@ class Program
     {
 
 
-        CConsole.WriteLine("Digite as notas das três provas:");
+        Console.WriteLine("Digite as notas das três provas:");
 
       Console.Write("primeira prova: ");
       double n1 = double.Parse(Console.ReadLine());
