@@ -36,13 +36,13 @@ class Program
           case 9:
               Console.WriteLine("setembro");
               break;
-              case 10:
+          case 10:
               Console.WriteLine("outubro");
               break;
-              case 11:
+          case 11:
               Console.WriteLine("novembro");
               break;
-              case 12:
+          case 12:
               Console.WriteLine("dezembro");
               break;
           default:
