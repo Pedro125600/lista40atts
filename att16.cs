@@ -4,34 +4,49 @@ class Program
 {
     public static void Main(string[] args)
     {
-      Console.WriteLine("Digite um número de 1 a 7 para representar o dia da semana:");
+      Console.WriteLine("Digite um número de 1 a 12 para representar o mes:");
       int numero = int.Parse(Console.ReadLine());
 
       switch (numero)
       {
           case 1:
-              Console.WriteLine("Domingo");
+              Console.WriteLine("Janeiro");
               break;
           case 2:
-              Console.WriteLine("Segunda-feira");
+              Console.WriteLine("Fevereiro");
               break;
           case 3:
-              Console.WriteLine("Terça-feira");
+              Console.WriteLine("Março");
               break;
           case 4:
-              Console.WriteLine("Quarta-feira");
+              Console.WriteLine("Abril");
               break;
           case 5:
-             Console.WriteLine("Quinta-feira");
+             Console.WriteLine("Maio");
               break;
           case 6:
-              Console.WriteLine("Sexta-feira");
+              Console.WriteLine("Junho");
               break;
           case 7:
-              Console.WriteLine("Sábado");
+              Console.WriteLine("Julho");
+              break;
+          case 8:
+              Console.WriteLine("agosto");
+              break;
+          case 9:
+              Console.WriteLine("setembro");
+              break;
+              case 10:
+              Console.WriteLine("outubro");
+              break;
+              case 11:
+              Console.WriteLine("novembro");
+              break;
+              case 12:
+              Console.WriteLine("dezembro");
               break;
           default:
-              Console.WriteLine("Número inválido, digite um número de 1 a 7");
+              Console.WriteLine("Número inválido");
               break;
       }
 
